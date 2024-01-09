@@ -1,2 +1,3 @@
-Tomcat application
+Tomcat application is deployed successfully
+
 
