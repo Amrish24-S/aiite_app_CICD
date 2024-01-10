@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aiiteapp
+spec:
+  selector:
+    matchLabels:
+      app: aiiteapp
+  template:
+    metadata:
+      labels:
+        app: aiiteapp
+    spec:
+      containers:
+      - name: aiiteapp
+        image: amrish24/aiite-app-img:2
+        resources:
+        ports:
+        - containerPort: 8080
+          name: aiiteapp-port
