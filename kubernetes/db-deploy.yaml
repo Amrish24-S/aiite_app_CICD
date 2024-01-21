@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vprodb
+  labels:
+    app: vprodb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vprodb
+  template:
+    metadata:
+      labels:
+        app: vprodb
+    spec:
+      containers:
+      - name: vprodb
+        image: amrish24/vprodb:latest
+        ports:
+        - containerPort: 3306
+          name: vprodb-port
+        env:
+          - name:  MYSQL_ROOT_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name:  app-secret
+                key:  db-pass
+          - name: MYSQL_DATABASE
+            value: "accounts"
