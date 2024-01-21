@@ -1,6 +1,17 @@
 # Deploy Tomcat Web Application on Cloud using Jenkins - DevSecOps Project
 
 
+# WORKFLOW
+
+![workflow](https://github.com/Amrish24-S/aiite_app_CICD/assets/142886181/a6601f95-9b33-4e87-ba46-1d30302dc722)
+
+
+# Overall Pipeline
+
+![Web capture_9-1-2024_175849_54 202 207 118](https://github.com/Amrish24-S/aiite_app_output/assets/142886181/fdb2d94c-c81e-4220-bc6a-9f79a30f9280)
+
+
+
 # SonarQube Analysis
 
 ![Web capture_9-1-2024_18950_52 39 245 200](https://github.com/Amrish24-S/aiite_app_output/assets/142886181/f90dc169-fd1d-4ce0-8c5d-091f7a312517)
@@ -30,5 +41,3 @@
 
 ![Web capture_9-1-2024_175952_54 202 207 118](https://github.com/Amrish24-S/aiite_app_output/assets/142886181/c5c18a4e-c947-4190-bcef-4d947c25f3fe)
 
-# Overall Pipeline
-![Web capture_9-1-2024_175849_54 202 207 118](https://github.com/Amrish24-S/aiite_app_output/assets/142886181/fdb2d94c-c81e-4220-bc6a-9f79a30f9280)
